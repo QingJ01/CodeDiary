@@ -10,7 +10,9 @@
 
 CodeDiary 是一个专注于“编码量统计”的 VS Code 插件。它不仅仅是一个计数器，更是你的编码习惯追踪器。通过高精度的输入识别和精美的数据可视化，帮助你回顾每一天的产出与坚持。
 
-![Dashboard Preview](https://youke2.picui.cn/s1/2025/12/28/695108434c818.png)
+<p align="center">
+  <img src="https://youke2.picui.cn/s1/2025/12/28/695108434c818.png" width="100%" alt="Dashboard Preview">
+</p>
 
 ## ✨ 核心特性
 
