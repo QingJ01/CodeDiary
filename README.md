@@ -1,4 +1,9 @@
+
 # CodeDiary - 你的编码日记 📔
+<p align="center">
+  <img src="https://esaimg.cdn1.vip/i/69511102b626b_1766920450.png" width="128" alt="CodeDiary Logo">
+</p>
+
 
 > **捕获每一颗跳动的字符，见证你的代码人生。**
 
