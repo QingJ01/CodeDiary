@@ -1,0 +1,67 @@
+{
+    "name": "codediary",
+    "displayName": "CodeDiary - 代码量统计",
+    "icon": "logo.png",
+    "description": "统计您每日/周/月/年 的编码量，区分手动输入与粘贴，提供热力图、语言分布等可视化洞察。",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/QingJ01/CodeDiary"
+    },
+    "publisher": "QingJ",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "codediary.openDashboard",
+                "title": "CodeDiary: 打开统计看板"
+            }
+        ],
+        "configuration": {
+            "title": "CodeDiary",
+            "properties": {
+                "codediary.excludeGlob": {
+                    "type": "array",
+                    "default": [
+                        "**/node_modules/**",
+                        "**/package-lock.json",
+                        "**/*.min.js",
+                        "**/*.log"
+                    ],
+                    "description": "要排除统计的文件 Glob 规则"
+                },
+                "codediary.pasteThreshold": {
+                    "type": "number",
+                    "default": 50,
+                    "description": "一次输入超过此字符数视为粘贴"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "lint": "eslint src --ext ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.0",
+        "@types/vscode": "^1.85.0",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.0.0",
+        "typescript": "^5.3.0"
+    },
+    "dependencies": {
+        "minimatch": "^10.1.1"
+    }
+}
