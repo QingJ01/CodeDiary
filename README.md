@@ -1,17 +1,12 @@
-
-# CodeDiary - 你的编码日记 📔
-<p align="center">
+<div align="center">
   <img src="https://esaimg.cdn1.vip/i/69511102b626b_1766920450.png" width="128" alt="CodeDiary Logo">
-</p>
+  <h1>CodeDiary - 你的编码日记 📔</h1>
+  <p><b>捕获每一颗跳动的字符，见证你的代码人生。</b></p>
 
-
-> **捕获每一颗跳动的字符，见证你的代码人生。**
-
-<p align="center">
-  <a href="https://github.com/QingJ01/CodeDiary">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github" alt="GitHub Repository">
-  </a>
-</p>
+  <p>
+    <a href="https://github.com/QingJ01/CodeDiary"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github" alt="GitHub Repository"></a> <a href="https://marketplace.visualstudio.com/items?itemName=QingJ.codediary"><img src="https://img.shields.io/visual-studio-marketplace/v/QingJ.codediary?style=flat-square&color=007ACC&label=Marketplace&logo=visual-studio-code" alt="Version"></a> <a href="https://marketplace.visualstudio.com/items?itemName=QingJ.codediary"><img src="https://img.shields.io/visual-studio-marketplace/i/QingJ.codediary?style=flat-square&color=44CC11&label=Installs" alt="Installs"></a> <a href="https://github.com/QingJ01/CodeDiary/stargazers"><img src="https://img.shields.io/github/stars/QingJ01/CodeDiary?style=flat-square&color=FFD700&label=Stars&logo=github" alt="GitHub Stars"></a> <a href="https://github.com/QingJ01/CodeDiary/blob/main/LICENSE"><img src="https://img.shields.io/github/license/QingJ01/CodeDiary?style=flat-square&color=white&label=License" alt="License"></a>
+  </p>
+</div>
 
 CodeDiary 是一个专注于“编码量统计”的 VS Code 插件。它不仅仅是一个计数器，更是你的编码习惯追踪器。通过高精度的输入识别和精美的数据可视化，帮助你回顾每一天的产出与坚持。
 
