@@ -16,12 +16,14 @@ CodeDiary 是一个专注于“编码量统计”的 VS Code 插件。它不仅�
 
 ## ✨ 核心特性
 
-- **🎯 精准统计**: 智能区分**手动敲击**与**粘贴输入**，拒绝虚假繁荣。
 - **📊 绿墙看板**: 完美复刻 GitHub 风格的**年度热力图**，让每一天的坚持可见。
+- **☁️ 云同步**: 支持 **GitHub Gist** 和 **WebDAV**，让你的编码足迹跨设备同步。
+- **📥 备份与迁移**: 支持本地 JSON 数据导出与合并导入。
 - **📈 多维洞察**:
   - **活跃韵律**: 24小时活跃度分布，寻找你的“高流”时刻。
   - **语言分布**: 自动统计各编程语言的产出占比。
   - **连胜挑战**: 自动记录连续编码天数 (Streak)，激励你保持状态。
+- **🤖 AI/粘贴检测**: 智能识别敲击速度，统计 AI 生成与粘贴贡献。
 - **😄 鼓励师**: 状态栏实时显示今日产出，并附带暖心的鼓励语。
 - **🎨 极致美学**: 采用 Glassmorphism (毛玻璃) 设计风格，深色模式完美适配。
 
@@ -36,16 +38,19 @@ CodeDiary 是一个专注于“编码量统计”的 VS Code 插件。它不仅�
 
 您可以在设置中自定义统计行为：
 
-- `codediary.excludeGlob`: 设置不参与统计的文件或文件夹（默认已排除 `node_modules`, `.min.js` 等）。
+- `codediary.excludeGlob`: 设置不参与统计的文件或文件夹。
 - `codediary.pasteThreshold`: 单次输入超过多少字符视为粘贴（默认 50）。
+- `codediary.dashboardCards`: 选择 Dashboard 显示的 4 张卡片。
+- `codediary.sync.type`: 配置云同步方式 (None/Gist/WebDAV)。
 
 ## 🔒 隐私声明
 
 **CodeDiary 非常重视您的隐私。**
-- 所有统计数据**仅存储在您本地** (VS Code Global Storage)。
-- 插件**不会**上传您的任何代码内容或统计数据到云端。
+- 默认情况下，所有统计数据**仅存储在您本地** (VS Code Global Storage)。
+- 如果您启用了**云同步**，数据将通过加密链接传输到您指定的 Gist 或 WebDAV 服务器。
+- 插件**不会**上传您的任何实际代码内容，仅包含字符数、行数、语言名等统计数值。
 - 只有在您主动分享截图时，数据才会被展示。
 
 ## 📝 License
 
-[MIT](LICENSE) © 2025 CodeDiary · [GitHub Repository](https://github.com/QingJ01/CodeDiary)
+[MIT](LICENSE) © 2026 CodeDiary · [GitHub Repository](https://github.com/QingJ01/CodeDiary)
